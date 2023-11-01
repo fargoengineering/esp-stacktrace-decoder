@@ -1,0 +1,12 @@
+0x3fc98444: ?? at V47_C3.cpp:101
+0x3fc951b8: ?? at HardwareSerial.cpp:103
+0x420064a2: Print::printNumber(unsigned long, unsigned char) at Print.cpp:283 (discriminator 2)
+0x4200254c: loop() at V47_C3.cpp:540
+0x3fc985e4: ?? at port.c:74
+0x42000022: task_process_buffer(void*) at V47_C3.cpp:297
+0x42005af0: HardwareSerial::HardwareSerial(int) at HardwareSerial.cpp:153
+0x42009708: app_main at main.cpp:71
+0x4038db7a: _prvTaskExitError at port.c:126
+ (inlined by) prvTaskExitError at port.c:140
+0x4205cb0a: __fp_unlock at findfp.c:347
+ (inlined by) __fp_unlock at findfp.c:344
