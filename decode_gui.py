@@ -53,7 +53,9 @@ def on_button_click():
 
 # Create the main window
 root = tk.Tk()
-root.title("Tkinter UI")
+root.title("ESP Stacktrace Decoder")
+icon = tk.PhotoImage(file="img/fei_icon.png")
+root.iconphoto(True,icon)
 root.geometry("750x500")
 
 # Labels
@@ -82,6 +84,7 @@ large_textbox2.grid(row=2, column=3,padx=20, pady=10)
 # Combobox (Dropdown)
 board_combobox = ttk.Combobox(root, values=["esp32", "esp32-S3", "esp32-C3"])
 board_combobox.grid(row=3, column=3)
+board_combobox.set("esp32")
 
 # Button
 button = tk.Button(root, text="Decode", command=on_button_click)

@@ -1,25 +1,27 @@
 0x3fca0570: ?? ??:0
-0x3fc98444: ?? at V47_C3.cpp:101
+0x00000000: ?? ??:0
 0x3fc951b8: ?? at HardwareSerial.cpp:103
 0x00000002: ?? ??:0
 0x00000000: ?? ??:0
 0x3fc8c124: ?? ??:0
 0x4005890e: ?? ??:0
 0x0000000a: ?? ??:0
-0x420064a2: Print::printNumber(unsigned long, unsigned char) at Print.cpp:283 (discriminator 2)
+0x420064e0: String::wbuffer() const at WString.h:340
+ (inlined by) String::copy(char const*, unsigned int) at WString.cpp:228
 0x3fca0590: ?? ??:0
 0x3fca3890: ?? ??:0
-0x3fc98000: ?? ??:0
-0x3fc98000: ?? ??:0
-0x4200254c: loop() at V47_C3.cpp:540
+0x3fc98458: ?? at V47_C3.cpp:104
+0x42005b2e: HardwareSerial::begin(unsigned long, unsigned long, signed char, signed char, bool, unsigned long, unsigned char) at HardwareSerial.cpp:395 (discriminator 4)
+0x42002580: std::__atomic_base<int>::load(std::memory_order) const at atomic_base.h:396
+ (inlined by) loop() at V47_C3.cpp:549
 0x00000001: ?? ??:0
 0x00000001: ?? ??:0
-0x3fc985e4: ?? at port.c:74
+0x3fc985ec: ?? at port.c:74
 0x600c2000: ?? ??:0
 0x3fca05b0: ?? ??:0
 0x3fca3890: ?? ??:0
 0x00128020: ?? ??:0
-0x42000022: task_process_buffer(void*) at V47_C3.cpp:297
+0x42000022: task_process_buffer(void*) at V47_C3.cpp:298
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
@@ -33,7 +35,7 @@
 0x3fca276c: ?? ??:0
 0x00000018: ?? ??:0
 0xffffffff: ?? ??:0
-0xaba950b3: ?? ??:0
+0x0793e52b: ?? ??:0
 0x3fca05f0: ?? ??:0
 0x3fc983c8: ?? ??:0
 0x00000000: ?? ??:0
@@ -46,8 +48,9 @@
 0x3fca0610: ?? ??:0
 0x00000000: ?? ??:0
 0x3fc98000: ?? ??:0
-0x42005af0: HardwareSerial::HardwareSerial(int) at HardwareSerial.cpp:153
-0x42009708: app_main at main.cpp:71
+0x42005b2e: HardwareSerial::begin(unsigned long, unsigned long, signed char, signed char, bool, unsigned long, unsigned char) at HardwareSerial.cpp:395 (discriminator 4)
+0x4200974a: gpio_ll_pullup_dis at gpio_ll.h:57
+ (inlined by) gpio_pullup_dis at gpio.c:94
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
@@ -73,7 +76,7 @@
 0x00000154: ?? ??:0
 0x3fca0670: ?? ??:0
 0x3fca0570: ?? ??:0
-0xd16aa7ef: ?? ??:0
+0x9b557be3: ?? ??:0
 0x3fc9600c: ?? ??:0
 0x3fc9600c: ?? ??:0
 0x3fca0670: ?? ??:0
@@ -88,9 +91,9 @@
 0x3fc9e660: ?? ??:0
 0x706f6f6c: ?? ??:0
 0x6b736154: ?? ??:0
-0xe41b5c00: ?? ??:0
+0xc14bd800: ?? ??:0
 0x3fca06b0: ?? ??:0
-0x00f16d17: ?? ??:0
+0x0079e75e: ?? ??:0
 0x00000000: ?? ??:0
 0x3fca0650: ?? ??:0
 0x00000001: ?? ??:0
@@ -109,8 +112,7 @@
 0x00000000: ?? ??:0
 0x3fca06f0: ?? ??:0
 0x00000000: ?? ??:0
-0x4205cb0a: __fp_unlock at findfp.c:347
- (inlined by) __fp_unlock at findfp.c:344
+0x4205cb4c: __sfvwrite_r at fvwrite.c:189 (discriminator 1)
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
@@ -167,7 +169,7 @@
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
 0x00000000: ?? ??:0
-0xb7000000: ?? ??:0
+0x65000000: ?? ??:0
 0xbaad5678: ?? ??:0
 0x00000060: ?? ??:0
 0xabba1234: ?? ??:0
